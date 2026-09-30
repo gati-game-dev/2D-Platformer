@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: cec378cc73f438048b3c03e3718b5928
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7355665790836332613
+    second: VikingsAssetPack_FullAtlas_0
+  - first:
+      213: -103424207395237843
+    second: VikingsAssetPack_FullAtlas_1
+  - first:
+      213: -1275655411838735098
+    second: VikingsAssetPack_FullAtlas_2
+  - first:
+      213: -950045919094197004
+    second: VikingsAssetPack_FullAtlas_3
+  - first:
+      213: 8761170743012305354
+    second: VikingsAssetPack_FullAtlas_4
+  - first:
+      213: 5295076757616675331
+    second: VikingsAssetPack_FullAtlas_5
+  - first:
+      213: -2193319915718906100
+    second: VikingsAssetPack_FullAtlas_6
+  - first:
+      213: 4125539406548090279
+    second: VikingsAssetPack_FullAtlas_7
+  - first:
+      213: -3103135129586536106
+    second: VikingsAssetPack_FullAtlas_8
+  - first:
+      213: 8873796095907006294
+    second: VikingsAssetPack_FullAtlas_9
+  - first:
+      213: 6874510866593460985
+    second: VikingsAssetPack_FullAtlas_10
+  - first:
+      213: -216182992704666809
+    second: VikingsAssetPack_FullAtlas_11
+  - first:
+      213: -230606139159116272
+    second: VikingsAssetPack_FullAtlas_12
+  - first:
+      213: -2750967786244240203
+    second: VikingsAssetPack_FullAtlas_13
+  - first:
+      213: 1693638322740429399
+    second: VikingsAssetPack_FullAtlas_14
+  - first:
+      213: 6540632026991164085
+    second: VikingsAssetPack_FullAtlas_15
+  - first:
+      213: -7866349915688321219
+    second: VikingsAssetPack_FullAtlas_16
+  - first:
+      213: -424963412937793504
+    second: VikingsAssetPack_FullAtlas_17
+  - first:
+      213: 968764745519447910
+    second: VikingsAssetPack_FullAtlas_18
+  - first:
+      213: 660400794293037483
+    second: VikingsAssetPack_FullAtlas_19
+  - first:
+      213: 977098908611509871
+    second: VikingsAssetPack_FullAtlas_20
+  - first:
+      213: 9103990578577775089
+    second: VikingsAssetPack_FullAtlas_21
+  - first:
+      213: -7148567134301881165
+    second: VikingsAssetPack_FullAtlas_22
+  - first:
+      213: 2224466941795142961
+    second: VikingsAssetPack_FullAtlas_23
+  - first:
+      213: 8599808288272363482
+    second: VikingsAssetPack_FullAtlas_24
+  - first:
+      213: 9052254372001745644
+    second: VikingsAssetPack_FullAtlas_25
+  - first:
+      213: 7429621681517762402
+    second: VikingsAssetPack_FullAtlas_26
+  - first:
+      213: -4744842517801931942
+    second: VikingsAssetPack_FullAtlas_27
+  - first:
+      213: 882193441067156584
+    second: VikingsAssetPack_FullAtlas_28
+  - first:
+      213: -419033370088682961
+    second: VikingsAssetPack_FullAtlas_29
+  - first:
+      213: 4229404382245291535
+    second: VikingsAssetPack_FullAtlas_30
+  - first:
+      213: -1451410610901921975
+    second: VikingsAssetPack_FullAtlas_31
+  - first:
+      213: -1921613464664389463
+    second: VikingsAssetPack_FullAtlas_32
+  - first:
+      213: -338498799152199136
+    second: VikingsAssetPack_FullAtlas_33
+  - first:
+      213: -2911239819117632023
+    second: VikingsAssetPack_FullAtlas_34
+  - first:
+      213: -5106647041685517653
+    second: VikingsAssetPack_FullAtlas_35
+  - first:
+      213: 6066585874374712057
+    second: VikingsAssetPack_FullAtlas_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 385
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548da459013941660800000000000000
+      internalID: 7355665790836332613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 703
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20d7093b30909ef0800000000000000
+      internalID: -103424207395237843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 479
+        width: 161
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d2c816926fb4ee0800000000000000
+      internalID: -1275655411838735098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 225
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4b4182542c0d2f0800000000000000
+      internalID: -950045919094197004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 355
+        width: 98
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac92bc14f5ee59970800000000000000
+      internalID: 8761170743012305354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 383
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a4b2ca144eb7940800000000000000
+      internalID: 5295076757616675331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fe8c84823cf81e0800000000000000
+      internalID: -2193319915718906100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adbc227b3cd04930800000000000000
+      internalID: 4125539406548090279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 191
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65175fe6a037fe4d0800000000000000
+      internalID: -3103135129586536106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 255
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65709c9a88e062b70800000000000000
+      internalID: 8873796095907006294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 191
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2bddfd53b276f50800000000000000
+      internalID: 6874510866593460985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 191
+        width: 77
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7438b59a6b6fffcf0800000000000000
+      internalID: -216182992704666809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 205
+        width: 98
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016856030f8bcccf0800000000000000
+      internalID: -230606139159116272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc8e58af5992d9d0800000000000000
+      internalID: -2750967786244240203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 159
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7528eecc413018710800000000000000
+      internalID: 1693638322740429399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5baf95fbc2ef4ca50800000000000000
+      internalID: 6540632026991164085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 159
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f397ced6c15d290800000000000000
+      internalID: -7866349915688321219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0202e49070a3a1af0800000000000000
+      internalID: -424963412937793504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 159
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fbb9f376eb17d00800000000000000
+      internalID: 968764745519447910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9e83106073a2900800000000000000
+      internalID: 660400794293037483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 159
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ef53ec74a5f8d00800000000000000
+      internalID: 977098908611509871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f991aa323fd75e70800000000000000
+      internalID: 9103990578577775089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 159
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc77eae0103bcc90800000000000000
+      internalID: -7148567134301881165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d8c48d5e4eede10800000000000000
+      internalID: 2224466941795142961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 159
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf2fee0318a85770800000000000000
+      internalID: 8599808288272363482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea04a3f36110ad70800000000000000
+      internalID: 9052254372001745644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 106
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26718663e815b1760800000000000000
+      internalID: 7429621681517762402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 63
+        width: 226
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bee3b8edee62eb0800000000000000
+      internalID: -4744842517801931942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 63
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864ccf5b24e2e3c00800000000000000
+      internalID: 882193441067156584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 63
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a44dabe5b4f2af0800000000000000
+      internalID: -419033370088682961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 63
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06063790ecd1ba30800000000000000
+      internalID: 4229404382245291535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 5
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f45f14dbd8bdbe0800000000000000
+      internalID: -1451410610901921975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_32
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 31
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8421b2cbe0555e0800000000000000
+      internalID: -1921613464664389463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_33
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 31
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a03a7b2296d4bf0800000000000000
+      internalID: -338498799152199136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e565851fc23997d0800000000000000
+      internalID: -2911239819117632023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_35
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa090f529b8129b0800000000000000
+      internalID: -5106647041685517653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_FullAtlas_36
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 0
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fad189e5b7d03450800000000000000
+      internalID: 6066585874374712057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VikingsAssetPack_FullAtlas_0: 7355665790836332613
+      VikingsAssetPack_FullAtlas_1: -103424207395237843
+      VikingsAssetPack_FullAtlas_10: 6874510866593460985
+      VikingsAssetPack_FullAtlas_11: -216182992704666809
+      VikingsAssetPack_FullAtlas_12: -230606139159116272
+      VikingsAssetPack_FullAtlas_13: -2750967786244240203
+      VikingsAssetPack_FullAtlas_14: 1693638322740429399
+      VikingsAssetPack_FullAtlas_15: 6540632026991164085
+      VikingsAssetPack_FullAtlas_16: -7866349915688321219
+      VikingsAssetPack_FullAtlas_17: -424963412937793504
+      VikingsAssetPack_FullAtlas_18: 968764745519447910
+      VikingsAssetPack_FullAtlas_19: 660400794293037483
+      VikingsAssetPack_FullAtlas_2: -1275655411838735098
+      VikingsAssetPack_FullAtlas_20: 977098908611509871
+      VikingsAssetPack_FullAtlas_21: 9103990578577775089
+      VikingsAssetPack_FullAtlas_22: -7148567134301881165
+      VikingsAssetPack_FullAtlas_23: 2224466941795142961
+      VikingsAssetPack_FullAtlas_24: 8599808288272363482
+      VikingsAssetPack_FullAtlas_25: 9052254372001745644
+      VikingsAssetPack_FullAtlas_26: 7429621681517762402
+      VikingsAssetPack_FullAtlas_27: -4744842517801931942
+      VikingsAssetPack_FullAtlas_28: 882193441067156584
+      VikingsAssetPack_FullAtlas_29: -419033370088682961
+      VikingsAssetPack_FullAtlas_3: -950045919094197004
+      VikingsAssetPack_FullAtlas_30: 4229404382245291535
+      VikingsAssetPack_FullAtlas_31: -1451410610901921975
+      VikingsAssetPack_FullAtlas_32: -1921613464664389463
+      VikingsAssetPack_FullAtlas_33: -338498799152199136
+      VikingsAssetPack_FullAtlas_34: -2911239819117632023
+      VikingsAssetPack_FullAtlas_35: -5106647041685517653
+      VikingsAssetPack_FullAtlas_36: 6066585874374712057
+      VikingsAssetPack_FullAtlas_4: 8761170743012305354
+      VikingsAssetPack_FullAtlas_5: 5295076757616675331
+      VikingsAssetPack_FullAtlas_6: -2193319915718906100
+      VikingsAssetPack_FullAtlas_7: 4125539406548090279
+      VikingsAssetPack_FullAtlas_8: -3103135129586536106
+      VikingsAssetPack_FullAtlas_9: 8873796095907006294
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

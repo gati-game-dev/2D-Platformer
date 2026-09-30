@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 4163a93b89997dc4baea2712bcc03e11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5214876026688043725
+    second: VikingsAssetPack_MainCharacter_0
+  - first:
+      213: 9157803422076535131
+    second: VikingsAssetPack_MainCharacter_1
+  - first:
+      213: -8061462394628368853
+    second: VikingsAssetPack_MainCharacter_2
+  - first:
+      213: -2811218996657869971
+    second: VikingsAssetPack_MainCharacter_3
+  - first:
+      213: 9090986361694263619
+    second: VikingsAssetPack_MainCharacter_4
+  - first:
+      213: 5237449922799521391
+    second: VikingsAssetPack_MainCharacter_5
+  - first:
+      213: 3254980465638384107
+    second: VikingsAssetPack_MainCharacter_6
+  - first:
+      213: -5595134772852614084
+    second: VikingsAssetPack_MainCharacter_7
+  - first:
+      213: 7026592516906639640
+    second: VikingsAssetPack_MainCharacter_8
+  - first:
+      213: 191999003747225288
+    second: VikingsAssetPack_MainCharacter_9
+  - first:
+      213: -1388644892055525543
+    second: VikingsAssetPack_MainCharacter_10
+  - first:
+      213: 3138010112836362418
+    second: VikingsAssetPack_MainCharacter_11
+  - first:
+      213: -5830023267724813830
+    second: VikingsAssetPack_MainCharacter_12
+  - first:
+      213: -4631784098467871675
+    second: VikingsAssetPack_MainCharacter_13
+  - first:
+      213: 1593793990298701948
+    second: VikingsAssetPack_MainCharacter_14
+  - first:
+      213: 1689563863301642704
+    second: VikingsAssetPack_MainCharacter_15
+  - first:
+      213: 1064489416420450547
+    second: VikingsAssetPack_MainCharacter_16
+  - first:
+      213: 103198531867972032
+    second: VikingsAssetPack_MainCharacter_17
+  - first:
+      213: -3745593776790151566
+    second: VikingsAssetPack_MainCharacter_18
+  - first:
+      213: 216224619541295139
+    second: VikingsAssetPack_MainCharacter_19
+  - first:
+      213: 3514993167226397676
+    second: VikingsAssetPack_MainCharacter_20
+  - first:
+      213: 8859888648338905081
+    second: VikingsAssetPack_MainCharacter_21
+  - first:
+      213: -2308056747515369563
+    second: VikingsAssetPack_MainCharacter_22
+  - first:
+      213: -6550513391180650161
+    second: VikingsAssetPack_MainCharacter_23
+  - first:
+      213: 7460147362456320605
+    second: VikingsAssetPack_MainCharacter_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 401
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3350f8122e901a7b0800000000000000
+      internalID: -5214876026688043725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 401
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b518ab731bd071f70800000000000000
+      internalID: 9157803422076535131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 401
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26910ed9aeef1090800000000000000
+      internalID: -8061462394628368853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 401
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ba06e873b8cf8d0800000000000000
+      internalID: -2811218996657869971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 338
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34915ba0eeba92e70800000000000000
+      internalID: 9090986361694263619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 337
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ecc51a4f82fa840800000000000000
+      internalID: 5237449922799521391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 337
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be12635ec730c2d20800000000000000
+      internalID: 3254980465638384107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 338
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c1fa181961a52b0800000000000000
+      internalID: -5595134772852614084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 337
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81163a76aa8738160800000000000000
+      internalID: 7026592516906639640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 337
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce059f931e1aa200800000000000000
+      internalID: 191999003747225288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 274
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957aed9f3da8abce0800000000000000
+      internalID: -1388644892055525543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 209
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0e13d52937c8b20800000000000000
+      internalID: 3138010112836362418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 145
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9100f0ab8971fa0800000000000000
+      internalID: -5830023267724813830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 145
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544058617e898bfb0800000000000000
+      internalID: -4631784098467871675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 145
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7018ec903b4e1610800000000000000
+      internalID: 1593793990298701948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_15
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 152
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d95e69c169827710800000000000000
+      internalID: 1689563863301642704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_16
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 145
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f067ecfb73d5ce00800000000000000
+      internalID: 1064489416420450547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 157
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c115599482ae6100800000000000000
+      internalID: 103198531867972032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 81
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e52851e4af40cc0800000000000000
+      internalID: -3745593776790151566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 81
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320f377552f200300800000000000000
+      internalID: 216224619541295139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 81
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3647099a3c7c030800000000000000
+      internalID: 3514993167226397676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 81
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f791c1b8c5a4fa70800000000000000
+      internalID: 8859888648338905081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 81
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a727e2ed9228ffd0800000000000000
+      internalID: -2308056747515369563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 81
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49ec3ed6c6e715a0800000000000000
+      internalID: -6550513391180650161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_MainCharacter_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 17
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ab6472084c78760800000000000000
+      internalID: 7460147362456320605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VikingsAssetPack_MainCharacter_0: -5214876026688043725
+      VikingsAssetPack_MainCharacter_1: 9157803422076535131
+      VikingsAssetPack_MainCharacter_10: -1388644892055525543
+      VikingsAssetPack_MainCharacter_11: 3138010112836362418
+      VikingsAssetPack_MainCharacter_12: -5830023267724813830
+      VikingsAssetPack_MainCharacter_13: -4631784098467871675
+      VikingsAssetPack_MainCharacter_14: 1593793990298701948
+      VikingsAssetPack_MainCharacter_15: 1689563863301642704
+      VikingsAssetPack_MainCharacter_16: 1064489416420450547
+      VikingsAssetPack_MainCharacter_17: 103198531867972032
+      VikingsAssetPack_MainCharacter_18: -3745593776790151566
+      VikingsAssetPack_MainCharacter_19: 216224619541295139
+      VikingsAssetPack_MainCharacter_2: -8061462394628368853
+      VikingsAssetPack_MainCharacter_20: 3514993167226397676
+      VikingsAssetPack_MainCharacter_21: 8859888648338905081
+      VikingsAssetPack_MainCharacter_22: -2308056747515369563
+      VikingsAssetPack_MainCharacter_23: -6550513391180650161
+      VikingsAssetPack_MainCharacter_24: 7460147362456320605
+      VikingsAssetPack_MainCharacter_3: -2811218996657869971
+      VikingsAssetPack_MainCharacter_4: 9090986361694263619
+      VikingsAssetPack_MainCharacter_5: 5237449922799521391
+      VikingsAssetPack_MainCharacter_6: 3254980465638384107
+      VikingsAssetPack_MainCharacter_7: -5595134772852614084
+      VikingsAssetPack_MainCharacter_8: 7026592516906639640
+      VikingsAssetPack_MainCharacter_9: 191999003747225288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

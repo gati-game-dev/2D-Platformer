@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: fb03c977c60331e4eb90cb083ac2eec8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5903738076387312350
+    second: VikingsAssetPack_Enemy_0
+  - first:
+      213: 1367724713557125219
+    second: VikingsAssetPack_Enemy_1
+  - first:
+      213: -1995570214081915037
+    second: VikingsAssetPack_Enemy_2
+  - first:
+      213: -3163796633814353746
+    second: VikingsAssetPack_Enemy_3
+  - first:
+      213: 8323248054601822270
+    second: VikingsAssetPack_Enemy_4
+  - first:
+      213: -1306597986466553950
+    second: VikingsAssetPack_Enemy_5
+  - first:
+      213: -1024495272460943668
+    second: VikingsAssetPack_Enemy_6
+  - first:
+      213: 8309907343824394744
+    second: VikingsAssetPack_Enemy_7
+  - first:
+      213: -3880152246113361200
+    second: VikingsAssetPack_Enemy_8
+  - first:
+      213: -6476102641040069133
+    second: VikingsAssetPack_Enemy_9
+  - first:
+      213: 2216413121432822878
+    second: VikingsAssetPack_Enemy_10
+  - first:
+      213: -1029604527677378404
+    second: VikingsAssetPack_Enemy_11
+  - first:
+      213: -109272080812316430
+    second: VikingsAssetPack_Enemy_12
+  - first:
+      213: 5949670620492151531
+    second: VikingsAssetPack_Enemy_13
+  - first:
+      213: 450640878135132971
+    second: VikingsAssetPack_Enemy_14
+  - first:
+      213: 4029852094227989099
+    second: VikingsAssetPack_Enemy_15
+  - first:
+      213: 6679445576912686170
+    second: VikingsAssetPack_Enemy_16
+  - first:
+      213: -2784431278254518143
+    second: VikingsAssetPack_Enemy_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 207
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d7cf5bf75b11ea0800000000000000
+      internalID: -5903738076387312350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 207
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368681661622bf210800000000000000
+      internalID: 1367724713557125219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 207
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3671c49967f4e44e0800000000000000
+      internalID: -1995570214081915037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 207
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea83beb59bfe714d0800000000000000
+      internalID: -3163796633814353746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 207
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30b008d10e128370800000000000000
+      internalID: 8323248054601822270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 207
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af9b60dd080edde0800000000000000
+      internalID: -1306597986466553950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 143
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccef5ea4af248c1f0800000000000000
+      internalID: -1024495272460943668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 143
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9101193b8b25370800000000000000
+      internalID: 8309907343824394744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 143
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2aaff071ee62ac0800000000000000
+      internalID: -3880152246113361200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 143
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd66d7b5f24026a0800000000000000
+      internalID: -6476102641040069133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 143
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54a48aadf742ce10800000000000000
+      internalID: 2216413121432822878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 143
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90f7ac132c16b1f0800000000000000
+      internalID: -1029604527677378404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 79
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f860571f99cb7ef0800000000000000
+      internalID: -109272080812316430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 79
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea330918e9719250800000000000000
+      internalID: 5949670620492151531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 78
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23c386bd7ff04600800000000000000
+      internalID: 450640878135132971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 79
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62c2dde029ece730800000000000000
+      internalID: 4029852094227989099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c4f6cec5822bc50800000000000000
+      internalID: 6679445576912686170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VikingsAssetPack_Enemy_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 15
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18017264186bb59d0800000000000000
+      internalID: -2784431278254518143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VikingsAssetPack_Enemy_0: -5903738076387312350
+      VikingsAssetPack_Enemy_1: 1367724713557125219
+      VikingsAssetPack_Enemy_10: 2216413121432822878
+      VikingsAssetPack_Enemy_11: -1029604527677378404
+      VikingsAssetPack_Enemy_12: -109272080812316430
+      VikingsAssetPack_Enemy_13: 5949670620492151531
+      VikingsAssetPack_Enemy_14: 450640878135132971
+      VikingsAssetPack_Enemy_15: 4029852094227989099
+      VikingsAssetPack_Enemy_16: 6679445576912686170
+      VikingsAssetPack_Enemy_17: -2784431278254518143
+      VikingsAssetPack_Enemy_2: -1995570214081915037
+      VikingsAssetPack_Enemy_3: -3163796633814353746
+      VikingsAssetPack_Enemy_4: 8323248054601822270
+      VikingsAssetPack_Enemy_5: -1306597986466553950
+      VikingsAssetPack_Enemy_6: -1024495272460943668
+      VikingsAssetPack_Enemy_7: 8309907343824394744
+      VikingsAssetPack_Enemy_8: -3880152246113361200
+      VikingsAssetPack_Enemy_9: -6476102641040069133
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
