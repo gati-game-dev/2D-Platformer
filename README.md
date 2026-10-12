@@ -4,6 +4,9 @@ A 2D platformer game built in **Unity and C#**, focused on responsive platformin
 
 The project is currently under active development, with additional enemy AI and checkpoint systems planned for future updates.
 
+<p align="center">
+  <img src="Screenshots/gameplay.png" alt="Platformer Gameplay" width="600">
+</p>
 ---
 
 ## 🎮 Current Features
@@ -48,14 +51,6 @@ The current level includes several hazards:
 * Timed/proximity-based bombs
 
 Some hazards cause immediate death, while others reduce player health depending on the hazard.
-
----
-
-## 📸 Gameplay
-
-![Gameplay Screenshot](Screenshots/overground.png)
-
-![Gameplay Screenshot](Screenshots/falling-weights.png)
 
 ---
 

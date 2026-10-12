@@ -14,9 +14,15 @@ public class PlayerMovement : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
 
+    private Animator animator;
+
     private Rigidbody2D rb;
     private bool isGrounded;
 
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Start()
     {
@@ -32,6 +38,9 @@ public class PlayerMovement : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
 
+        animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
+
+        animator.SetBool("IsJumping", !isGrounded);
 
         // -------------------------
         // START CLIMBING

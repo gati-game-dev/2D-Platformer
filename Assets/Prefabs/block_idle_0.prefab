@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5670996547324323487}
   - component: {fileID: 6124145561012178606}
   - component: {fileID: 7447751971936565384}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: block_idle_0
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3272898332188033249}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.03, y: 3.76, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
+
 public class FallingBlockTrigger : MonoBehaviour
 {
 
@@ -8,9 +9,22 @@ public class FallingBlockTrigger : MonoBehaviour
     private SpriteRenderer fallingBlockSpriteRenderer; 
     public Sprite idleSprite; 
     public Sprite fallingSprite;
+    private Vector3 initialPosition;
+    private Rigidbody2D rb;
 
-    void Start()
+    void Awake()
     {
+        initialPosition = transform.position;
+        rb = GetComponent<Rigidbody2D>();
+        
+    //         Debug.Log(
+    //     $"[{name}] Awake | Initial Position: {initialPosition} | " +
+    //     $"Initial Sprite: {GetComponent<SpriteRenderer>()?.sprite?.name} | " +
+    //     $"Rigidbody: {(rb != null ? rb.bodyType.ToString() : "None")}"
+    // );
+    }
+    void Start()
+    {        
         fallingBlockSpriteRenderer = GetComponent<SpriteRenderer>();
     }
     public void OnCollisionEnter2D(Collision2D other)
@@ -33,11 +47,34 @@ public class FallingBlockTrigger : MonoBehaviour
         fallingBlockSpriteRenderer.sprite = fallingSprite;
 
         // Start falling
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
 
         if (rb != null)
         {
             rb.bodyType = RigidbodyType2D.Dynamic;
         }
+    }
+
+    public void ResetPosition()
+    {
+        // Debug.Log(
+        //     $"[{name}] ResetPosition CALLED | " +
+        //     $"Before Position: {transform.position} | " +
+        //     $"Before Sprite: {fallingBlockSpriteRenderer?.sprite?.name} | " +
+        //     $"Saved Position: {initialPosition}"
+        // );
+
+        transform.position = initialPosition;
+        hasTriggered = false;
+
+        if (rb != null)
+        {
+            rb.bodyType = RigidbodyType2D.Static;
+        }
+
+        // Debug.Log(
+        //     $"[{name}] ResetPosition FINISHED | " +
+        //     $"After Position: {transform.position} | " +
+        //     $"After Sprite: {fallingBlockSpriteRenderer?.sprite?.name}"
+        // );
     }
 }

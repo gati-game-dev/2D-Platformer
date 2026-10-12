@@ -2,10 +2,9 @@ using UnityEngine;
 
 public class DeathTrigger : MonoBehaviour
 {
-    private GameManager gameManager;
     void Start()
     {
-        gameManager = GameManager.instance;
+        
     }
 
     void Update()
@@ -17,7 +16,7 @@ public class DeathTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            gameManager.Die();
+            GameManager.instance.Die();
         }
     }
 }

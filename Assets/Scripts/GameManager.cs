@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text youDiedText;
     public TMP_Text pressRtext;
     private bool waitingToRestart = false;
-
+    public FallingBlockTrigger fallingBlockTrigger;
     public GameObject spring;
 
     void Awake()
@@ -37,7 +37,8 @@ public class GameManager : MonoBehaviour
     {
         keyCollected += 1;
         spring.gameObject.SetActive(true);
-        
+        fallingBlockTrigger.ResetPosition();
+                
     }
 
     public void Die()
