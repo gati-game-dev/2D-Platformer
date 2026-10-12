@@ -5,8 +5,9 @@ A 2D platformer game built in **Unity and C#**, focused on responsive platformin
 The project is currently under active development, with additional enemy AI and checkpoint systems planned for future updates.
 
 <p align="center">
-  <img src="Screenshots/gameplay.png" alt="Platformer Gameplay" width="600">
+  <img src="Screenshots/gameplay.png" alt="Platformer Gameplay" width="750">
 </p>
+
 ---
 
 ## 🎮 Current Features
