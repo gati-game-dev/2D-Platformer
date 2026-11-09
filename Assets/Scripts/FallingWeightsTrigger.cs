@@ -1,27 +1,38 @@
+
 using UnityEngine;
 
 public class FallingWeightsTrigger : MonoBehaviour
 {
     private Transform player;
-    public float triggerZone = 2f; // Distance from the player at which the weights will start falling
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float triggerZone = 2f; 
+    public int damageAmount = 10;
+    private Vector3 initialPosition;
+    private bool hasTriggered = false;
+    public Rigidbody2D rb;
+
+    void Awake()
+    {
+        initialPosition = transform.position;
+    }
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        if (transform.position.x - player.position.x <= triggerZone)
+        if (Mathf.Abs(transform.position.x - player.position.x) <= triggerZone
+            && !hasTriggered)
         {
-            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            hasTriggered = true;
+
             if (rb != null)
             {
                 rb.bodyType = RigidbodyType2D.Dynamic;
             }
         }
     }
+    
 
     public void OnCollisionEnter2D(Collision2D other)
     {
@@ -30,8 +41,23 @@ public class FallingWeightsTrigger : MonoBehaviour
             PlayerHealth playerHealth = other.gameObject.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
-                playerHealth.TakeDamage(20); // Call the TakeDamage method on the PlayerHealth script
+                playerHealth.TakeDamage(damageAmount, transform); // Call the TakeDamage method on the PlayerHealth script
             }
         }
+
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            rb.bodyType = RigidbodyType2D.Static;
+        }
+    }
+
+
+    public void ResetPosition()
+    { 
+        transform.position = initialPosition;
+        rb.bodyType = RigidbodyType2D.Static;
+        hasTriggered = false;
+        Debug.Log("RESETTED");
     }
 }
+

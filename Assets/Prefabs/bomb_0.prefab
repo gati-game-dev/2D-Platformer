@@ -145,6 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BombBlast
   explosionRadius: 3
   destructibleTilemap: {fileID: 0}
+  defaultSprite: {fileID: -2613247888821195678, guid: 6c81b772287c4d842a20c96713cff208, type: 3}
 --- !u!95 &-5091016531112641600
 Animator:
   serializedVersion: 7

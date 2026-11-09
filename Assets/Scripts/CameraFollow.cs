@@ -1,9 +1,11 @@
+
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
     private GameObject player;
     private Rigidbody2D playerRb;
+    private PlayerMovement playerMovement;
 
     public float horizontalDeadZone = 3f;
     public float verticalDeadZone = 3f;
@@ -22,6 +24,7 @@ public class CameraFollow : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerRb = player.GetComponent<Rigidbody2D>();
+        playerMovement = player.GetComponent<PlayerMovement>();
     }
 
     void Update()
@@ -45,20 +48,22 @@ public class CameraFollow : MonoBehaviour
             targetX = player.transform.position.x + horizontalDeadZone;
         }
 
-
         // -------------------------
         // SMOOTH HORIZONTAL LOOK-AHEAD
         // -------------------------
 
         float desiredLookAhead = 0f;
 
-        if (playerRb.linearVelocity.x > 0.1f)
+        if (!playerMovement.isSwinging)
         {
-            desiredLookAhead = lookAheadX;
-        }
-        else if (playerRb.linearVelocity.x < -0.1f)
-        {
-            desiredLookAhead = -lookAheadX;
+            if (playerRb.linearVelocity.x > 0.1f)
+            {
+                desiredLookAhead = lookAheadX;
+            }
+            else if (playerRb.linearVelocity.x < -0.1f)
+            {
+                desiredLookAhead = -lookAheadX;
+            }
         }
 
         currentLookAhead = Mathf.SmoothDamp(
@@ -69,7 +74,6 @@ public class CameraFollow : MonoBehaviour
         );
 
         targetX += currentLookAhead;
-
 
         // -------------------------
         // VERTICAL DEAD ZONE
@@ -90,7 +94,6 @@ public class CameraFollow : MonoBehaviour
                 + verticalDeadZone
                 + verticalBias;
         }
-
 
         // -------------------------
         // MOVE CAMERA

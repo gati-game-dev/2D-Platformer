@@ -9,19 +9,14 @@ public class FallingBlockTrigger : MonoBehaviour
     private SpriteRenderer fallingBlockSpriteRenderer; 
     public Sprite idleSprite; 
     public Sprite fallingSprite;
+    public Sprite restingSprite;
     private Vector3 initialPosition;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     void Awake()
     {
         initialPosition = transform.position;
-        rb = GetComponent<Rigidbody2D>();
-        
-    //         Debug.Log(
-    //     $"[{name}] Awake | Initial Position: {initialPosition} | " +
-    //     $"Initial Sprite: {GetComponent<SpriteRenderer>()?.sprite?.name} | " +
-    //     $"Rigidbody: {(rb != null ? rb.bodyType.ToString() : "None")}"
-    // );
+
     }
     void Start()
     {        
@@ -34,6 +29,11 @@ public class FallingBlockTrigger : MonoBehaviour
             hasTriggered = true;
             fallingBlockSpriteRenderer.sprite = idleSprite;
             StartCoroutine(FallAfterDelay());
+        }
+
+        if (other.gameObject.CompareTag("Ground") && hasTriggered)
+        {
+            gameObject.SetActive(false);
         }
     }
 
@@ -55,26 +55,11 @@ public class FallingBlockTrigger : MonoBehaviour
     }
 
     public void ResetPosition()
-    {
-        // Debug.Log(
-        //     $"[{name}] ResetPosition CALLED | " +
-        //     $"Before Position: {transform.position} | " +
-        //     $"Before Sprite: {fallingBlockSpriteRenderer?.sprite?.name} | " +
-        //     $"Saved Position: {initialPosition}"
-        // );
-
+    { 
+        gameObject.SetActive(true);
+        rb.bodyType = RigidbodyType2D.Static;
         transform.position = initialPosition;
         hasTriggered = false;
-
-        if (rb != null)
-        {
-            rb.bodyType = RigidbodyType2D.Static;
-        }
-
-        // Debug.Log(
-        //     $"[{name}] ResetPosition FINISHED | " +
-        //     $"After Position: {transform.position} | " +
-        //     $"After Sprite: {fallingBlockSpriteRenderer?.sprite?.name}"
-        // );
+        fallingBlockSpriteRenderer.sprite = restingSprite;
     }
 }

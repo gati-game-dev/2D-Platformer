@@ -10,10 +10,12 @@ public class GameManager : MonoBehaviour
     public int KeyCollected { get { return keyCollected; } }
     public TMP_Text youDiedText;
     public TMP_Text pressRtext;
+    public TMP_Text escapeSuccessfulMessage;
     private bool waitingToRestart = false;
-    public FallingBlockTrigger fallingBlockTrigger;
+    public FallingBlockTrigger[] fallingBlockTriggers;  
+    public FallingWeightsTrigger[] fallingWeightTriggers;
     public GameObject spring;
-
+    public BombBlast[] bombBlasts;
     void Awake()
     {
         instance = this;
@@ -21,7 +23,6 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        
     }
 
     void Update()
@@ -33,13 +34,33 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
     public void UpdateKeyCount()
     {
         keyCollected += 1;
+
         spring.gameObject.SetActive(true);
-        fallingBlockTrigger.ResetPosition();
-                
+
+        foreach (FallingBlockTrigger block in fallingBlockTriggers)
+        {
+            block.ResetPosition();
+        }
+
+        foreach (FallingWeightsTrigger weight in fallingWeightTriggers)
+        {
+            weight.ResetPosition();
+            Debug.Log("weights will reset now");
+        }
+
+        foreach (BombBlast bomb in bombBlasts)
+        {
+            if (bomb != null)
+            {
+                bomb.ResetBombDestruction();
+            }
+        }      
     }
+
 
     public void Die()
     {
@@ -57,4 +78,12 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void GameOver()
+    {
+        Time.timeScale = 0;
+        escapeSuccessfulMessage.gameObject.SetActive(true);
+        Debug.Log("Game Over: Player has successfully escaped!");
+
+    }
 }
+

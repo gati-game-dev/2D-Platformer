@@ -107,3 +107,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LeverPulled
   player: {fileID: 0}
   pulledLeverSprite: {fileID: -7784206539637790912, guid: 05f499666e92d494aaad31476368b705, type: 3}
+  interactionPromptPrefab: {fileID: 350612249372914198, guid: 397e2733465d59740b5ed96b1d9c23dd, type: 3}
+  promptRange: 2
+  promptOffset: {x: 0, y: 1.2, z: 0}

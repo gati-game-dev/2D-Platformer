@@ -1,8 +1,8 @@
 # 2D Platformer
 
-A 2D platformer game built in **Unity and C#**, focused on responsive platforming, environmental interaction, hazards, collectibles, and gameplay systems.
+A 2D platformer game developed using **Unity and C#**, featuring responsive player movement, enemy AI, environmental interactions, physics-based mechanics, collectibles, and dynamic hazards.
 
-The project is currently under active development, with additional enemy AI and checkpoint systems planned for future updates.
+The game combines traditional platforming with interactive environments, enemy encounters, and mechanics that encourage exploration and timing.
 
 <p align="center">
   <img src="Screenshots/gameplay.png" alt="Platformer Gameplay" width="750">
@@ -10,81 +10,117 @@ The project is currently under active development, with additional enemy AI and 
 
 ---
 
-## 🎮 Current Features
+## 🎮 Features
 
-### Player Movement
+### 🏃 Player Movement & Mechanics
+- Responsive horizontal movement and jumping.
+- Ground detection using a dedicated ground-check system.
+- Rope climbing and physics-based rope swinging.
+- Swing using horizontal movement and release with retained momentum.
+- Jump-based rope detachment.
+- Spring-based boosted jumps.
+- Player health and damage system.
+- Hit animation triggered upon taking damage.
+- Death state with a dedicated **"You Died!"** UI and restart functionality.
 
-* Horizontal movement and jumping
-* Ground detection using a dedicated ground-check system
-* Rope climbing and rope-based movement
-* Ability to leave ropes through jumping or horizontal movement
+### 🤖 Enemy AI
 
-### Interactive Objects
+The game features multiple enemies with distinct movement and attack behaviours.
 
-* Interactive environmental objects that respond to player actions
-* Lever-based interactions
-* Moving platforms
-* Spring-based jump mechanics
-* Environmental objects that can affect player movement and progression
+- **Bee AI:** Idle hovering followed by player detection and chasing behaviour.
+- **Fish AI:** Periodically jumps out of water and damages the player on contact.
+- **Saw Boss AI:** Boss encounter featuring an awakening animation, horizontal player tracking, periodic jumping, and collision-based damage.
 
-### Collectibles
+Each enemy uses its own movement and detection logic to create different gameplay challenges.
 
-* Collectible keys used for level progression
-* Key collection tracked through the gameplay loop
-* Collection state resets when the level is restarted
+### 🪢 Rope Swinging System
+- Physics-based swinging using Unity's `DistanceJoint2D`.
+- Player can attach to ropes when within a specified grab range.
+- Horizontal movement controls swinging direction.
+- Releasing the rope preserves the player's momentum.
+- Rope visuals dynamically represent the swinging connection.
+- Supports reusable rope prefabs for placement throughout the level.
 
-### Health & Death System
+### 🎯 Interactive Objects
+- Lever-based environmental interactions.
+- Moving platforms.
+- Spring mechanisms.
+- Exit door with key-based unlocking.
+- Interactive objects that respond to player proximity and input.
 
-* Player health system
-* Different hazards can deal different types of damage
-* Death state with a dedicated **"You Died!"** UI
-* Restart prompt after death
-* Restarting the level reloads the current scene, resetting the current run's gameplay state
+### 🔑 Collectibles & Progression
+- Collectible keys required to unlock level progression.
+- Key collection tracked and displayed through the UI.
+- Exit door becomes accessible after collecting all required keys.
+- Key collection triggers environmental changes and resets specific objects.
 
-### Environmental Hazards
+### ❤️ Health & Death System
+- Player health system with different damage values depending on the hazard or enemy.
+- Damage from enemies and environmental hazards.
+- Dedicated hit animation when the player takes damage.
+- Death state with a **"You Died!"** UI.
+- Restart prompt allowing the player to restart the level.
 
-The current level includes several hazards:
+### 💥 Environmental Hazards
 
-* Spikes
-* Lava pits
-* Falling blocks
-* Falling weights
-* Timed/proximity-based bombs
+The level features multiple hazards with different behaviours and damage mechanics:
 
-Some hazards cause immediate death, while others reduce player health depending on the hazard.
+- Spikes.
+- Lava pits.
+- Falling blocks.
+- Falling weights.
+- Proximity-based bombs.
+
+Some hazards cause instant death, while others reduce player health.
+
+### 🔄 Environmental Reset System
+
+A centralized game management system handles the resetting of multiple environmental objects when the required progression condition is met.
+
+- Falling blocks return to their original positions and restore their visual states.
+- Falling weights are repositioned and their physics states are restored.
+- Bombs are reset, including their activation and visual states.
+- Spring and other registered environmental objects can be reset.
+- Reset operations are coordinated through a persistent `GameManager`.
+
+This allows the environment to respond dynamically to key collection and ensures that reusable objects return to their intended initial states.
+
+### 🐌 Additional Enemy & Object Behaviour
+- Moving enemies with patrol-style movement.
+- Snail and fish movement using ping-pong positioning.
+- Conditional movement behaviour that allows the snail to stop when scared and resume its patrol when no longer scared.
 
 ---
 
-## 🗺️ Planned Features
+## 🛠️ Technical Implementation
 
-The following systems are planned for future development:
+Some of the key Unity systems and concepts used in the project include:
 
-* [ ] Simple enemy AI
-* [ ] Checkpoint system
-* [ ] Respawning from the latest checkpoint
-* [ ] Additional level progression
-* [ ] Additional environmental interactions
-* [ ] Further gameplay polish and balancing
-
----
-
-## 🔧 Development Status
-
-**Status:** In Development
-
-The core platforming loop and several gameplay systems are currently implemented. The project is being expanded incrementally with additional gameplay mechanics, AI, checkpoints, and polish.
+- **Unity 2D Physics:** Rigidbody2D, Collider2D, DistanceJoint2D and physics-based interactions.
+- **Animator:** State transitions, movement animations, hit animations, and enemy animations.
+- **Unity Tilemap System:** Level construction and destructible environmental elements.
+- **Singleton Pattern:** Centralized GameManager for managing gameplay state and environmental resets.
+- **Persistent Scene Management:** `DontDestroyOnLoad` and scene-loading callbacks.
+- **Enemy AI:** Player detection, chasing, patrol movement, timed jumping, and collision-based damage.
+- **Prefab System:** Reusable environmental objects and rope mechanics.
+- **UI Systems:** Health, collectible tracking, death screens, and progression messages.
 
 ---
 
 ## 🧰 Built With
 
-* **Unity**
-* **C#**
-* **Unity 2D Physics**
-* **Unity Tilemap System**
+- **Unity**
+- **C#**
+- **Unity 2D Physics**
+- **Unity Animator**
+- **Unity Tilemap System**
 
 ---
 
-## 🚀 Future Development
+## 📌 Project Status
 
-The long-term goal is to develop the project into a more complete 2D platformer while continuing to expand its gameplay systems, level design, enemy behavior, and overall polish.
+<badge color="success">Completed</badge>
+
+The core gameplay systems, enemy behaviours, environmental interactions, collectibles, hazards, and progression mechanics have been implemented.
+
+The project served as a hands-on exploration of Unity game development, focusing on gameplay programming, physics-based mechanics, AI behaviour, object management, and building interconnected gameplay systems.

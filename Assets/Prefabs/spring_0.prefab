@@ -106,6 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 142b0f308d489434faa1b5fbbc7c7811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpringMovement
+  SpringExtended: {fileID: -4078155014481055892, guid: 0f261828a0ac47d41b7a18acb526b2fc, type: 3}
+  spriteRenderer: {fileID: 1313142048047999422}
 --- !u!61 &4820148216451436792
 BoxCollider2D:
   m_ObjectHideFlags: 0

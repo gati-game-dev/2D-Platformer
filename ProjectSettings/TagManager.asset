@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - HealthUI
+  - FallingWeight
+  - BossTrap
   layers:
   - Default
   - TransparentFX

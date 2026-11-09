@@ -27,6 +27,7 @@ public class KeyCollected : MonoBehaviour
             gameManager.UpdateKeyCount();
             Destroy(gameObject);
             KeyUI();
+            Debug.Log("key collected");
         }
     }
 

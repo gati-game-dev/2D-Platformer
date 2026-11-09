@@ -1,8 +1,10 @@
+
 using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
     public float platformSpeed = 5f;
+    public float moveDistance = 15f;
 
     private Vector3 pointA;
     private Vector3 pointB;
@@ -10,22 +12,17 @@ public class MovingPlatform : MonoBehaviour
     void Start()
     {
         pointA = transform.position;
-        pointB = pointA + new Vector3(15, 0, 0);
+        pointB = pointA + new Vector3(moveDistance, 0, 0);
     }
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            pointB,
-            platformSpeed * Time.deltaTime
+        float distance = Mathf.PingPong(
+            Time.time * platformSpeed,
+            moveDistance
         );
 
-        if (transform.position == pointB)
-        {
-            pointB = pointA;
-            pointA = transform.position;
-        }
+        transform.position = pointA + new Vector3(distance, 0, 0);
     }
 
     // Moving player with the platform when they are standing on it

@@ -155,6 +155,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FallingBlockTrigger
   idleSprite: {fileID: 604825701336161573, guid: d723e02afc422f849974368fdb55f858, type: 3}
   fallingSprite: {fileID: 837902340402259332, guid: be33ef4b23304bb4f87d38f11d93f066, type: 3}
+  restingSprite: {fileID: -2993251020649910901, guid: a5f2fed8edd7b3f4c8a34b1e31999876, type: 3}
+  rb: {fileID: 7447751971936565384}
 --- !u!50 &7447751971936565384
 Rigidbody2D:
   serializedVersion: 5
