@@ -80,10 +80,16 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        Time.timeScale = 0;
-        escapeSuccessfulMessage.gameObject.SetActive(true);
-        Debug.Log("Game Over: Player has successfully escaped!");
-
+        if (keyCollected > 0)
+        {
+            Time.timeScale = 0;
+            escapeSuccessfulMessage.gameObject.SetActive(true);
+            
+        }
+        else
+        {
+            Debug.Log("Game Over: Player has failed to escape.");
+        }
     }
 }
 

@@ -59,7 +59,6 @@ public class ExitDoor : MonoBehaviour
             // Check if player has collected at least one key.
             if (gameManager != null)
             {
-                Debug.Log("GameOver will be called now");
                 isUnlocked = true;
 
                 gameManager.GameOver();
