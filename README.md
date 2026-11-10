@@ -4,6 +4,14 @@ A 2D platformer developed independently using **Unity and C#**, featuring respon
 
 The game combines traditional platforming with exploration, environmental interactions, and enemy encounters, with gameplay systems designed to work together throughout the level.
 
+## Play the Game
+
+Download the Windows build:
+
+[Download Platformer v1.0.0](https://github.com/gati-game-dev/2D-Platformer/releases/tag/v1.0.0)
+
+---
+
 <p align="center">
   <img src="Screenshots/gameplay.png" alt="Platformer Gameplay" width="750">
 </p>
@@ -21,7 +29,7 @@ A look at the core gameplay mechanics and systems implemented in the game.
 ### Boss AI
 <!-- Replace with your boss AI GIF -->
 <p align="center">
-  <img src="GIFs/BossAI.gif" alt="Boss AI Showcase" width="650">
+  <img src="GIFs/BossAI.gif" alt="Boss AI Showcase" width="600">
 </p>
 
 Boss encounter featuring an awakening sequence, player tracking, periodic jumping, and collision-based damage.
@@ -29,7 +37,7 @@ Boss encounter featuring an awakening sequence, player tracking, periodic jumpin
 ### Enemy AI
 <!-- Replace with your enemy AI GIF -->
 <p align="center">
-  <img src="GIFs/BeeAI.gif" alt="Enemy AI Showcase" width="650">
+  <img src="GIFs/BeeAI.gif" alt="Enemy AI Showcase" width="600">
 </p>
 
 Multiple enemy behaviours, including bee hovering and chasing, fish jumping attacks, and snail patrol behaviour with conditional movement.
@@ -37,8 +45,8 @@ Multiple enemy behaviours, including bee hovering and chasing, fish jumping atta
 ### Rope Mechanics
 <!-- Replace with your rope mechanics GIF -->
 <p align="center">
-  <img src="GIFs/RopeSwinging.gif" alt="Rope Swinging" width="650">
-  <img src="GIFs/RopeClimbing.gif" alt="Rope Climbing" width="650">
+  <img src="GIFs/RopeSwinging.gif" alt="Rope Swinging" width="600"> <br>
+  <img src="GIFs/RopeClimbing.gif" alt="Rope Climbing" width="600">
 </p>
 
 Physics-based rope interactions featuring climbing, swinging, directional control, and momentum-preserving detachment.
@@ -46,8 +54,8 @@ Physics-based rope interactions featuring climbing, swinging, directional contro
 ### Environmental Hazards
 <!-- Replace with your hazards GIF -->
 <p align="center">
-  <img src="GIFs/BombBlast.gif" alt="Bomb Blast" width="650">
-  <img src="GIFs/FallingWeight.gif" alt="Falling Weight" width="650">
+  <img src="GIFs/BombBlast.gif" alt="Bomb Blast" width="600"> <br>
+  <img src="GIFs/FallingWeight.gif" alt="Falling Weight" width="600">
 </p>
 
 Interactive hazards including proximity-triggered bombs, falling blocks, and falling weights, with different damage and reset behaviours.
@@ -165,8 +173,9 @@ The project incorporates several Unity systems and programming concepts:
 | Input | Action |
 |---|---|
 | A / D or Arrow Keys | Move |
+| W / S or Arrow Keys | Rope Climbing |
 | Space | Jump |
-| E | Interact / Grab or release Rope |
+| E | Interact / Grab or Release Rope |
 | R | Restart after death |
 
 ---
