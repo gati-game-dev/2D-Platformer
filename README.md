@@ -1,14 +1,12 @@
 # 2D Platformer
 
-A 2D platformer developed independently using **Unity and C#**, featuring responsive player movement, multiple enemy AI behaviours, physics-based rope mechanics, interactive environments, collectible-based progression, and dynamic hazards.
-
-The game combines traditional platforming with exploration, environmental interactions, and enemy encounters, with gameplay systems designed to work together throughout the level.
+A 2D platformer developed independently using **Unity and C#**, featuring responsive player movement, multiple enemy AI behaviours, physics-based rope mechanics, interactive environments, collectible-based progression, dynamic hazards and checkpoints.
 
 ## Play the Game
 
-Download the Windows build:
+Download the latest Windows build:
 
-[Download Platformer v1.0.0](https://github.com/gati-game-dev/2D-Platformer/releases/tag/v1.0.0)
+[Download Platformer v1.1.0](https://github.com/gati-game-dev/2D-Platformer/releases/tag/v1.1.0)
 
 ---
 
@@ -17,7 +15,7 @@ Download the Windows build:
 </p>
 
 <p align="center">
-  <b>Unity | C# | 2D Game Development</b>
+  **Unity | C# | 2D Game Development**
 </p>
 
 ---
@@ -118,6 +116,13 @@ Multiple enemies with distinct movement, detection, and attack behaviours.
 - Exit door unlocks after collecting all required keys.
 - Key collection triggers environmental changes and object reset operations.
 
+### 📍 Checkpoint System
+- Multiple checkpoints distributed throughout the level.
+- Checkpoints activate when reached by the player.
+- Player respawns at the most recently activated checkpoint after death.
+- Collected keys and their UI state persist across deaths and checkpoint respawns.
+- Progression is maintained when moving between checkpoints, preventing previously collected items from being lost.
+
 ### 💥 Health & Environmental Hazards
 - Player health system with different damage values depending on the hazard or enemy.
 - Damage from enemies and environmental hazards.
@@ -153,6 +158,7 @@ The project incorporates several Unity systems and programming concepts:
 | Game Management | Singleton Pattern |
 | Scene Management | `DontDestroyOnLoad`, scene-loading callbacks |
 | Object Management | Reusable prefabs and centralized reset logic |
+| Checkpoint System | Checkpoint activation, respawn positioning, persistent gameplay progress |
 | UI | Health, collectibles, interaction prompts, death screens |
 | Gameplay Interactions | Triggers, collision detection, proximity checks |
 
@@ -184,7 +190,7 @@ The project incorporates several Unity systems and programming concepts:
 
 **Completed**
 
-The core gameplay systems, enemy behaviours, environmental interactions, collectibles, hazards, and progression mechanics have been implemented.
+The core gameplay systems, enemy behaviours, environmental interactions, collectibles, hazards, checkpoint-based respawning, and progression mechanics have been implemented.
 
 This project represents an independently developed game, focusing on gameplay programming, physics-based mechanics, AI behaviour, object management, and building interconnected gameplay systems.
 

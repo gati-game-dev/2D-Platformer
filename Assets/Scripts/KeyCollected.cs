@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -5,19 +6,14 @@ using UnityEngine.UI;
 public class KeyCollected : MonoBehaviour
 {
     private GameManager gameManager;
-    public Image keyUI;  // Reference to the UI image element
-    public TMP_Text keysCollectedText;  // Reference to the UI text element
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Image keyUI;
+    public TMP_Text keysCollectedText;
+
     void Start()
     {
         gameManager = GameManager.instance;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        RefreshKeyUI();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -25,15 +21,29 @@ public class KeyCollected : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             gameManager.UpdateKeyCount();
+
+            RefreshKeyUI();
+
             Destroy(gameObject);
-            KeyUI();
+
             Debug.Log("key collected");
         }
     }
 
-    void KeyUI()
+    public void RefreshKeyUI()
     {
-        keysCollectedText.text = "1/1";
-        keyUI.color = gameManager.KeyCollected >= 1 ? Color.white : Color.gray3;
+        if (gameManager == null)
+        {
+            gameManager = GameManager.instance;
+        }
+
+        if (gameManager == null)
+            return;
+
+        keysCollectedText.text = gameManager.KeyCollected + "/1";
+
+        keyUI.color = gameManager.KeyCollected >= 1
+            ? Color.white
+            : Color.gray;
     }
 }

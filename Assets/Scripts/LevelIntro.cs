@@ -10,14 +10,27 @@ public class LevelIntro : MonoBehaviour
 
     public float duration = 3f;
     public float moveDistance = 100f;
+    public float displayDuration = 2f;
 
     private RectTransform textTransform;
     private Vector2 startPosition;
 
-    public float displayDuration = 2f;
+    // Remembers whether the intro has already played
+    private static bool introAlreadyPlayed = false;
 
     void Start()
     {
+        // If intro has already played, hide it and continue gameplay
+        if (introAlreadyPlayed)
+        {
+            canvasGroup.alpha = 0f;
+            Time.timeScale = 1f;
+            return;
+        }
+
+        // Mark intro as played
+        introAlreadyPlayed = true;
+
         Time.timeScale = 0f;
 
         textTransform = introText.GetComponent<RectTransform>();
@@ -30,7 +43,6 @@ public class LevelIntro : MonoBehaviour
     {
         canvasGroup.alpha = 1f;
 
-        // Wait for 2 seconds before starting the animation
         yield return new WaitForSecondsRealtime(displayDuration);
 
         float elapsed = 0f;
@@ -41,11 +53,9 @@ public class LevelIntro : MonoBehaviour
 
             float progress = elapsed / duration;
 
-            // Move the text upwards
             textTransform.anchoredPosition =
                 startPosition + Vector2.up * moveDistance * progress;
 
-            // Fade the text out
             canvasGroup.alpha = 1f - progress;
 
             yield return null;
@@ -53,10 +63,8 @@ public class LevelIntro : MonoBehaviour
 
         canvasGroup.alpha = 0f;
 
-        // Restore original position
         textTransform.anchoredPosition = startPosition;
 
-        // Resume gameplay
         Time.timeScale = 1f;
     }
 }

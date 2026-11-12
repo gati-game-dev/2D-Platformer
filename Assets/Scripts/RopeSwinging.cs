@@ -15,6 +15,8 @@ public class RopeSwinging : MonoBehaviour
     public float swingDamping = 0.8f;
     public float ropeLength = 3f;
     public float grabRange = 1.5f;
+    public float maxSwingSpeed = 8f;
+    public float maxReleaseSpeed = 8f;
 
     [Header("Interaction Prompt")]
     public GameObject interactionPromptPrefab;
@@ -54,7 +56,12 @@ public class RopeSwinging : MonoBehaviour
         {
             if (swingJoint.enabled)
             {
-                // Release the rope and preserve momentum.
+                // Release the rope while limiting launch velocity.
+                rb.linearVelocity = Vector2.ClampMagnitude(
+                    rb.linearVelocity,
+                    maxReleaseSpeed
+                );
+
                 swingJoint.enabled = false;
                 playerMovement.isSwinging = false;
                 rb.linearDamping = originalDamping;
@@ -105,28 +112,6 @@ public class RopeSwinging : MonoBehaviour
                         }
                     }
                 }
-            }
-        }
-
-        // Push once when A/D or arrow keys are pressed.
-        if (swingJoint.enabled)
-        {
-            if (Input.GetKeyDown(KeyCode.D) ||
-                Input.GetKeyDown(KeyCode.RightArrow))
-            {
-                rb.AddForce(
-                    Vector2.right * swingForce,
-                    ForceMode2D.Impulse
-                );
-            }
-
-            if (Input.GetKeyDown(KeyCode.A) ||
-                Input.GetKeyDown(KeyCode.LeftArrow))
-            {
-                rb.AddForce(
-                    Vector2.left * swingForce,
-                    ForceMode2D.Impulse
-                );
             }
         }
     }
@@ -249,30 +234,65 @@ public class RopeSwinging : MonoBehaviour
         Vector2 anchor = swingAnchor.position;
         Vector2 offset = rb.position - anchor;
 
-        // Restrict the swing to the lower 180-degree arc.
-        if (offset.y > 0f)
-        {
-            float side = offset.x >= 0f ? 1f : -1f;
+        // Restrict the swing to a 150-degree arc (75 degrees on each side).
+        float maxAngle = 75f;
+        float currentAngle = Mathf.Atan2(offset.x, -offset.y) * Mathf.Rad2Deg;
 
-            rb.position = anchor +
-                new Vector2(side * ropeLength, 0f);
+        if (Mathf.Abs(currentAngle) > maxAngle)
+        {
+            float clampedAngle = Mathf.Sign(currentAngle) * maxAngle;
+
+            Vector2 clampedOffset = new Vector2(
+                Mathf.Sin(clampedAngle * Mathf.Deg2Rad),
+                -Mathf.Cos(clampedAngle * Mathf.Deg2Rad)
+            ) * ropeLength;
+
+            rb.position = anchor + clampedOffset;
 
             Vector2 velocity = rb.linearVelocity;
 
-            // Prevent the player from moving further
-            // outward or above the anchor.
-            if (side * velocity.x > 0f)
-            {
-                velocity.x = 0f;
-            }
+            Vector2 outwardDirection = new Vector2(
+                Mathf.Sign(clampedAngle) * Mathf.Cos(clampedAngle * Mathf.Deg2Rad),
+                Mathf.Sin(clampedAngle * Mathf.Deg2Rad)
+            );
 
-            if (velocity.y > 0f)
+            float outwardVelocity = Vector2.Dot(
+                velocity,
+                outwardDirection
+            );
+
+            if (outwardVelocity > 0f)
             {
-                velocity.y = 0f;
+                velocity -= outwardVelocity * outwardDirection;
             }
 
             rb.linearVelocity = velocity;
         }
+
+        // Apply controlled swinging force.
+        if (Input.GetKey(KeyCode.D) ||
+            Input.GetKey(KeyCode.RightArrow))
+        {
+            rb.AddForce(
+                Vector2.right * swingForce,
+                ForceMode2D.Impulse
+            );
+        }
+
+        if (Input.GetKey(KeyCode.A) ||
+            Input.GetKey(KeyCode.LeftArrow))
+        {
+            rb.AddForce(
+                Vector2.left * swingForce,
+                ForceMode2D.Impulse
+            );
+        }
+
+        // Prevent excessive velocity while swinging.
+        rb.linearVelocity = Vector2.ClampMagnitude(
+            rb.linearVelocity,
+            maxSwingSpeed
+        );
     }
 
     void LateUpdate()

@@ -104,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
 
                 if (isTouchingSpring)
                 {
-                    currentJumpForce *= 1.5f;
+                    currentJumpForce *= 1.8f;
                 }
 
                 rb.linearVelocity = new Vector2(
